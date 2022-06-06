@@ -3,9 +3,12 @@ $navbar-height: 80px;
 
 //* =================== class styles ===================
 
+html {
+    background-color: #464646;
+}
+
 .App {
-    height: 100vh;
-    background-color: grey;
+    background-color: #464646;
 }
 
 .navbarStyle {
@@ -42,4 +45,19 @@ $navbar-height: 80px;
 .cardStyle {
     width: 50rem;
     height: auto;
+
+}
+
+// instructors page
+
+.instructorCardStyle {
+    width: 18rem;
+    background-color: transparent !important;
+    border-style: none !important;
+    color: white;
+    align-self: center;
+}
+
+.instructorCardImgStyle {
+    margin: 10px 0px;
 }
