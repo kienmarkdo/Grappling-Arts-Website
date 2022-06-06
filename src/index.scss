@@ -1,0 +1,45 @@
+//* =================== SCSS variables ===================
+$navbar-height: 80px;
+
+//* =================== class styles ===================
+
+.App {
+    height: 100vh;
+    background-color: grey;
+}
+
+.navbarStyle {
+    background-color: #994343; /* uOttawa's colour #8f001a */
+    height: $navbar-height;
+}
+
+.page {
+    padding: 10px;
+}
+
+// Home page
+
+.homeStyle {
+    background-image: url('https://media.gettyimages.com/photos/judoka-throwing-his-partner-to-the-ground-picture-id1155720797?s=2048x2048');
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - $navbar-height);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.cardStyle {
+    width: 50rem;
+    height: auto;
+}

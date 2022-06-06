@@ -1,3 +1,12 @@
+.App {
+  height: 100vh;
+  background-color: grey;
+}
+
 .color-navbar {
   background-color: #994343; /* uOttawa's colour #8f001a */
+}
+
+.page {
+  padding: 10px;
 }
