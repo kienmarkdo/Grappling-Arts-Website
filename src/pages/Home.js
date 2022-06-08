@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <header className="homeStyle">
-        <Card className="cardStyle" style={{ backgroundColor: "#8f001a" }}>
+        <Card className="homeCardStyle">
           <Card.Body>
             <Card.Title style={{ fontSize: "50px", color: "white" }}>
               uOttawa Grappling Arts

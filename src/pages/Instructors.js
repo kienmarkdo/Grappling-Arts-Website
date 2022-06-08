@@ -7,10 +7,64 @@ export default function Instructors() {
       <Container
         style={{
           marginTop: "50px",
-          display: "flex",
-          justifyContent: "space-evenly",
+          display: "grid",
         }}
       >
+        <Row>
+          <Col>
+            <Card className="instructorCardStyle">
+              <Card.Body>
+                <Card.Title
+                  style={{ textAlign: "center", fontWeight: "normal" }}
+                >
+                  Kien Do
+                  <br />
+                  Judo enthusiast
+                </Card.Title>
+                <Card.Img
+                  className="instructorCardImgStyle"
+                  variant="top"
+                  src="https://media.discordapp.net/attachments/983190148206428190/983939097896828979/unknown.png"
+                />
+                <Card.Text>
+                  Founder/Judo enthusiast
+                  <br />
+                  <br />
+                  Kien is the founder of the uOttawa Grappling Arts club and
+                  he's not even good at judo. He made this website for SEG 3525
+                  so he can write whatever he wants.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card className="instructorCardStyle">
+              <Card.Body>
+                <Card.Title
+                  style={{ textAlign: "center", fontWeight: "normal" }}
+                >
+                  Ella Smith
+                  <br />
+                  Judo/BJJ Coach
+                </Card.Title>
+                <Card.Img
+                  className="instructorCardImgStyle"
+                  variant="top"
+                  src="https://media.istockphoto.com/photos/head-shot-studio-portrait-millennial-pleasant-indian-ethnicity-worker-picture-id1199847347?k=20&m=1199847347&s=612x612&w=0&h=7EZjWU8ZqOe1EUxKMSPK0ey_5QuEJGfnVuD2Qa3y-zk="
+                  alt="https://www.istockphoto.com/search/2/image?phrase=headshot"
+                />
+                <Card.Text>
+                  Judo/BJJ/Women's instructor
+                  <br />
+                  <br />
+                  Ella started BJJ when she was in her teens and later picked up
+                  Judo in university. She has coached athletes from all
+                  backgrounds and is NCCP 2 certified in Ontario.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
         <Row>
           <Col>
             <Card className="instructorCardStyle">
@@ -126,13 +180,6 @@ export default function Instructors() {
           </Col>
         </Row>
       </Container>
-      <Container
-        style={{
-          marginTop: "50px",
-          display: "flex",
-          justifyContent: "space-evenly",
-        }}
-      ></Container>
       <br />
       <br />
       <br />

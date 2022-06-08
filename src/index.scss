@@ -9,10 +9,11 @@ html {
 
 .App {
     background-color: #464646;
+    color: white;
 }
 
 .navbarStyle {
-    background-color: #994343; /* uOttawa's colour #8f001a */
+    background-color: #8f001a; /* uOttawa's secondary colour #80746c */
     height: $navbar-height;
 }
 
@@ -23,7 +24,7 @@ html {
 // Home page
 
 .homeStyle {
-    background-image: url('https://media.gettyimages.com/photos/judoka-throwing-his-partner-to-the-ground-picture-id1155720797?s=2048x2048');
+    background-image: url('https://www.stevehuffphoto.com/wp-content/uploads/2014/03/Judo_MM1.jpg');
     background-size: cover;
     background-position: center;
     height: calc(100vh - $navbar-height);
@@ -42,10 +43,10 @@ html {
     overflow: hidden;
 }
 
-.cardStyle {
+.homeCardStyle {
     width: 50rem;
     height: auto;
-
+    background-color: #8f001a !important;
 }
 
 // instructors page
@@ -54,8 +55,9 @@ html {
     width: 18rem;
     background-color: transparent !important;
     border-style: none !important;
-    color: white;
     align-self: center;
+    margin: auto;
+    // place-self: center;
 }
 
 .instructorCardImgStyle {
