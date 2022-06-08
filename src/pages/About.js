@@ -47,6 +47,7 @@ export default function About() {
         <hr />
         <Container>
           <h1>What is grappling?</h1>
+          <br />
           <p>
             Grappling is the art of subduing your opponent without striking them
             (no punching, no kicking) and is a perfectly safe sport that allows
