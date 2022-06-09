@@ -16,7 +16,10 @@ export default function PurchaseConfirmationMessage(props) {
       </Modal.Header>
       <Modal.Body>
         <h4>Purchase Confirmed!</h4>
-        <p>The receipt of your purchase will be sent to your email shortly.</p>
+        <p>
+          The receipt of your purchase will be sent to your email shortly.
+          Please refresh the page.
+        </p>
       </Modal.Body>
       <Modal.Footer>
         <Button

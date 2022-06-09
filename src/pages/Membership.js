@@ -6,6 +6,7 @@ import {
   FloatingLabel,
   Form,
   Button,
+  Modal,
 } from "react-bootstrap";
 import PurchaseConfirmation from "./PuchaseConfirmation";
 
@@ -14,8 +15,27 @@ export default function Membership() {
   const [programTypeVal, setProgramTypeVal] = useState();
   const [durationVal, setDurationVal] = useState();
   const [instructorVal, setInstructorVal] = useState();
+  const [fullNameVal, setFullNameVal] = useState();
+  const [emailAddressVal, setEmailAddressVal] = useState();
 
   const [purchaseConfirmation, setPurchaseConfirmation] = useState();
+
+  const [showFormError, setShowFormError] = useState(false);
+
+  const handleCloseErrorForm = () => setShowFormError(false);
+  const handleShowErrorForm = () => setShowFormError(true);
+
+  //* Returns true if all form fields on the page are filled in
+  const isAllFilledIn = () => {
+    return (
+      typeof locationVal !== "undefined" &&
+      typeof programTypeVal !== "undefined" &&
+      typeof durationVal !== "undefined" &&
+      typeof instructorVal !== "undefined" &&
+      typeof fullNameVal !== "undefined" &&
+      typeof emailAddressVal !== "undefined"
+    );
+  };
 
   return (
     <div className="page">
@@ -133,20 +153,36 @@ export default function Membership() {
                   label="Full Name"
                   className="mb-3"
                 >
-                  <Form.Control type="text" />
+                  <Form.Control
+                    type="text"
+                    placeholder="Enter Full Name"
+                    onChange={(e) => {
+                      setFullNameVal(e.target.value);
+                    }}
+                  />
                 </FloatingLabel>
                 <FloatingLabel
                   controlId="floatingInput"
                   label="Email Address"
                   className="mb-3"
                 >
-                  <Form.Control type="email" />
+                  <Form.Control
+                    type="email"
+                    placeholder="Enter Email Address"
+                    onChange={(e) => {
+                      setEmailAddressVal(e.target.value);
+                    }}
+                  />
                 </FloatingLabel>
               </>
               <Button
                 variant="success"
                 style={{ float: "right" }}
-                onClick={() => setPurchaseConfirmation(true)}
+                onClick={() =>
+                  isAllFilledIn()
+                    ? setPurchaseConfirmation(true)
+                    : handleShowErrorForm()
+                }
               >
                 Confirm Purchase
               </Button>
@@ -158,6 +194,26 @@ export default function Membership() {
           onHide={() => setPurchaseConfirmation(false)}
         />
       </Container>
+
+      <Modal show={showFormError} onHide={handleCloseErrorForm} centered>
+        <Modal.Header closeButton>
+          <Modal.Title>ERROR: Cannot Confirm Purchase</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          You have not filled in all of the fields in this form.
+          <br />
+          <br />
+          Please fill in all information before clicking purchase.
+        </Modal.Body>
+        <Modal.Footer>
+          <Button
+            style={{ backgroundColor: "#8f001a", borderStyle: "none" }}
+            onClick={handleCloseErrorForm}
+          >
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </div>
   );
 }
