@@ -55,7 +55,9 @@ export default function Membership() {
                       setLocationVal(e.target.value);
                     }}
                   >
-                    <option selected>-- Location --</option>
+                    <option selected disabled>
+                      -- Location --
+                    </option>
                     <option value="0">uOttawa Campus - Minto</option>
                     <option value="0">Gatineau</option>
                     <option value="0">Orléans</option>
@@ -69,7 +71,9 @@ export default function Membership() {
                       setProgramTypeVal(e.target.value);
                     }}
                   >
-                    <option selected>-- Program Type --</option>
+                    <option selected disabled>
+                      -- Program Type --
+                    </option>
                     <option value="0">Judo</option>
                     <option value="0">Brazilian Jiu-Jitsu</option>
                     <option value="0">Wrestling</option>
@@ -83,7 +87,9 @@ export default function Membership() {
                       setDurationVal(e.target.value);
                     }}
                   >
-                    <option selected>-- Duration --</option>
+                    <option selected disabled>
+                      -- Duration --
+                    </option>
                     <option value="10">
                       Open-mat Drop-in (one payment per session)
                     </option>
@@ -102,7 +108,9 @@ export default function Membership() {
                       setInstructorVal(e.target.value);
                     }}
                   >
-                    <option selected>-- Instructor --</option>
+                    <option selected disabled>
+                      -- Instructor --
+                    </option>
                     <option value="0">Kien Do - Judo Enthusiast</option>
                     <option value="0">Ella Smith - Judo/BJJ Coach</option>
                     <option value="0">
