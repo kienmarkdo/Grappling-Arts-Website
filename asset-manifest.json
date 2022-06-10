@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Grappling-Arts-Website/static/css/main.2bc6ad20.css",
-    "main.js": "/Grappling-Arts-Website/static/js/main.68a3ab60.js",
+    "main.js": "/Grappling-Arts-Website/static/js/main.4f6db6cb.js",
     "index.html": "/Grappling-Arts-Website/index.html",
     "main.2bc6ad20.css.map": "/Grappling-Arts-Website/static/css/main.2bc6ad20.css.map",
-    "main.68a3ab60.js.map": "/Grappling-Arts-Website/static/js/main.68a3ab60.js.map"
+    "main.4f6db6cb.js.map": "/Grappling-Arts-Website/static/js/main.4f6db6cb.js.map"
   },
   "entrypoints": [
     "static/css/main.2bc6ad20.css",
-    "static/js/main.68a3ab60.js"
+    "static/js/main.4f6db6cb.js"
   ]
 }
