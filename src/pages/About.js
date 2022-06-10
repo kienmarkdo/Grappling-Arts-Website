@@ -61,7 +61,7 @@ export default function About() {
             their partners or themselves. This can be achieved by:
           </p>
           <ul>
-            <li>Throwing on opponent onto the ground with force</li>
+            <li>Throwing opponent onto the ground with force</li>
             <li>
               Subduing your opponent on the ground by pinning, choking, or
               applying a joint lock
