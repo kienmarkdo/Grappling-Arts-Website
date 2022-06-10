@@ -185,7 +185,11 @@ export default function Membership() {
               </>
               <Button
                 variant="success"
-                style={{ float: "right" }}
+                style={{
+                  float: "right",
+                  fontSize: "20px",
+                  backgroundColor: "#27d658",
+                }}
                 onClick={() =>
                   isAllFilledIn()
                     ? setPurchaseConfirmation(true)

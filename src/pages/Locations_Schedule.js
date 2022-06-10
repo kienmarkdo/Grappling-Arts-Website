@@ -327,7 +327,7 @@ export default function Locations_Schedule() {
             <h1>Interested? Book a class with us today!</h1>
             <br />
             <Button
-              variant="dark"
+              variant="success"
               style={{ fontSize: "30px" }}
               onClick={routeToMembership}
             >

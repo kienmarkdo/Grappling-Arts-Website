@@ -101,7 +101,7 @@ export default function ProgramJudo() {
           <h1>Interested? Book a class with us today!</h1>
           <br />
           <Button
-            variant="dark"
+            variant="success"
             style={{ fontSize: "30px" }}
             onClick={routeToMembership}
           >

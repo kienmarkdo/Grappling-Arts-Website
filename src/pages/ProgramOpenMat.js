@@ -54,14 +54,14 @@ export default function ProgramOpenMat() {
               <h4>Cross-training</h4>
               <p>
                 Are you a judoka who wishes to grapple with BJJ practioners, or
-                a a wrestler who has always wondered if you could throw a
-                judoka? Open mats are a GREAT way to experiment with your skills
-                and techniques and to test your limits without being restricted
-                by a specific sport's ruleset. Train with other practitioners
-                from other grappling disciplines, challenge them to see who
-                comes out on top! Ever had the debate of "which sport is the
-                best? Judo, BJJ, or wrestling?" Worry not, for you can test that
-                on the mats at your own pace.
+                a wrestler who has always wondered if you could throw a judoka?
+                Open mats are a GREAT way to experiment with your skills and
+                techniques and to test your limits without being restricted by a
+                specific sport's ruleset. Train with other practitioners from
+                other grappling disciplines, challenge them to see who comes out
+                on top! Ever had the debate of "which sport is the best? Judo,
+                BJJ, or wrestling?" Worry not, for you can test that on the mats
+                at your own pace.
               </p>
               <h4>It's a social event!</h4>
               <p>
@@ -119,7 +119,7 @@ export default function ProgramOpenMat() {
           <h1>Interested? Book a class with us today!</h1>
           <br />
           <Button
-            variant="dark"
+            variant="success"
             style={{ fontSize: "30px" }}
             onClick={routeToMembership}
           >

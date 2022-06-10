@@ -192,7 +192,7 @@ export default function Instructors() {
           <h1>
             Interested? Book a class with us today!{" "}
             <Button
-              variant="dark"
+              variant="success"
               style={{ fontSize: "30px" }}
               onClick={routeToMembership}
             >
