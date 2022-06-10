@@ -27,7 +27,7 @@ export default function Locations_Schedule() {
       "Wrestling\nNate Diaz\n17:30 - 19:00",
       "Women's\nElla Smith\n17:30 - 19:00",
       "Wrestling\nNate Diaz\n17:30 - 19:00",
-      "Wrestling\nNate Diaz\n9:00am - 10:30",
+      "Wrestling\nNate Diaz\n9:00 - 10:30",
       "N/A",
     ],
     [
@@ -78,7 +78,7 @@ export default function Locations_Schedule() {
                           "Wrestling\nNate Diaz\n17:30 - 19:00",
                           "Women's\nElla Smith\n17:30 - 19:00",
                           "Wrestling\nNate Diaz\n17:30 - 19:00",
-                          "Wrestling\nNate Diaz\n9:00am - 10:30",
+                          "Wrestling\nNate Diaz\n9:00 - 10:30",
                           "N/A",
                         ],
                         [
@@ -114,7 +114,7 @@ export default function Locations_Schedule() {
                           "Women's\nGeneviève Boudreau\n17:30 - 19:00",
                           "N/A",
                           "Wrestling\nNate Diaz\n17:30 - 19:00",
-                          "Women's\nGeneviève Boudreau\n9:00am - 10:30",
+                          "Women's\nGeneviève Boudreau\n9:00 - 10:30",
                           "N/A",
                         ],
                         [
@@ -149,7 +149,7 @@ export default function Locations_Schedule() {
                           "Wrestling\nNate Diaz\n17:30 - 19:00",
                           "N/A",
                           "Women's\nGeneviève Boudreau\n19:00 - 20:30",
-                          "Women's\nGeneviève Boudreau\n9:00am - 10:30",
+                          "Women's\nGeneviève Boudreau\n9:00 - 10:30",
                           "N/A",
                         ],
                         [
@@ -175,7 +175,7 @@ export default function Locations_Schedule() {
                           "Wrestling\nNate Diaz\n17:30 - 19:00",
                           "Women's\nElla Smith\n17:30 - 19:00",
                           "Wrestling\nNate Diaz\n17:30 - 19:00",
-                          "Wrestling\nNate Diaz\n9:00am - 10:30",
+                          "Wrestling\nNate Diaz\n9:00 - 10:30",
                           "N/A",
                         ],
                         [
@@ -210,7 +210,7 @@ export default function Locations_Schedule() {
                           "Women's\nElla Smith\n17:30 - 19:00",
                           "Wrestling\nNate Diaz\n17:30 - 19:00",
                           "N/A",
-                          "Women's\nElla Smith\n9:00am - 10:30",
+                          "Women's\nElla Smith\n9:00 - 10:30",
                           "N/A",
                         ],
                         [
@@ -236,7 +236,7 @@ export default function Locations_Schedule() {
                           "Wrestling\nNate Diaz\n17:30 - 19:00",
                           "Women's\nElla Smith\n17:30 - 19:00",
                           "Wrestling\nNate Diaz\n17:30 - 19:00",
-                          "Wrestling\nNate Diaz\n9:00am - 10:30",
+                          "Wrestling\nNate Diaz\n9:00 - 10:30",
                           "N/A",
                         ],
                         [
