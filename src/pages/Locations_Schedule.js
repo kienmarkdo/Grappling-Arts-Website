@@ -1,7 +1,20 @@
 import React, { useState, Suspense } from "react";
-import { Container, Row, Col, Form, Spinner, Table } from "react-bootstrap";
+import {
+  Container,
+  Row,
+  Col,
+  Form,
+  Spinner,
+  Table,
+  Button,
+} from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 export default function Locations_Schedule() {
+  const navigate = useNavigate(); // react router dom v6 hook
+  const routeToMembership = () => {
+    navigate("/membership");
+  };
   const [mapMarker, setMapMarker] = useState(
     "https://maps.google.com/maps?q=university%20of%20ottawa%20minto&t=&z=13&ie=UTF8&iwloc=&output=embed" // uOttawa - Minto
   );
@@ -307,9 +320,26 @@ export default function Locations_Schedule() {
                 })}
               </tbody>
             </Table>
+            <br />
+            <br />
+            <hr />
+            <br />
+            <h1>Interested? Book a class with us today!</h1>
+            <br />
+            <Button
+              variant="dark"
+              style={{ fontSize: "30px" }}
+              onClick={routeToMembership}
+            >
+              Sign Me Up!
+            </Button>
           </Col>
         </Row>
       </Container>
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }

@@ -1,7 +1,14 @@
 import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 export default function Instructors() {
+  const navigate = useNavigate(); // react router dom v6 hook
+
+  const routeToMembership = () => {
+    navigate("/membership");
+  };
+
   return (
     <>
       <Container
@@ -179,6 +186,21 @@ export default function Instructors() {
             </Card>
           </Col>
         </Row>
+        <hr />
+        <Container style={{ textAlign: "center" }}>
+          <br />
+          <h1>
+            Interested? Book a class with us today!{" "}
+            <Button
+              variant="dark"
+              style={{ fontSize: "30px" }}
+              onClick={routeToMembership}
+            >
+              Sign Me Up!
+            </Button>
+          </h1>
+          <br />
+        </Container>
       </Container>
       <br />
       <br />
