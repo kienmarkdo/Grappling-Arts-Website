@@ -1,7 +1,12 @@
 import React from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col, Image, Button } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 export default function ProgramBJJ() {
+  const navigate = useNavigate(); // react router dom v6 hook
+  const routeToMembership = () => {
+    navigate("/membership");
+  };
   return (
     <div className="page">
       <br />
@@ -92,6 +97,19 @@ export default function ProgramBJJ() {
               />
             </Col>
           </Row>
+          <br />
+          <br />
+          <hr />
+          <br />
+          <h1>Interested? Book a class with us today!</h1>
+          <br />
+          <Button
+            variant="dark"
+            style={{ fontSize: "30px" }}
+            onClick={routeToMembership}
+          >
+            Sign Me Up!
+          </Button>
         </Container>
       </Container>
       <br />
