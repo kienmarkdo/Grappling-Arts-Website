@@ -96,6 +96,7 @@ function App() {
         </Navbar>
         <div>
           <Routes>
+            <Route exact path="/Grappling-Arts-Website/" element={<Home />} />
             <Route exact path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/membership" element={<Membership />} />
