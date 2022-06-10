@@ -217,6 +217,25 @@ export default function About() {
           </Row> */}
         </Container>
         <br />
+        <br />
+        <hr />
+        <br />
+        <br />
+        <Container>
+          <h1>Insurance Package</h1>
+          <p>
+            Our club is committed to safety of our members. That is why our
+            instructors are NCCP Level 2 certified coaches and are licenced in
+            providing CPR. Additional Insurance Packages are available for each
+            program. For participants who wish to purchase an additional
+            insurance package, please call one of our locations to discuss your
+            package. For those who wish to sign-up for the judo program, you may
+            visit https://www.judoontario.ca/ to purchase a provincial insurance
+            package in the event that you encounter an unexpected
+            grappling-related injury on the mats.
+          </p>
+        </Container>
+        <br />
         <hr />
         <br />
         <Container>
