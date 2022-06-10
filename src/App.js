@@ -96,7 +96,7 @@ function App() {
         </Navbar>
         <div>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route exact path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/membership" element={<Membership />} />
             <Route path="/locations_schedule" element={<LocationsSchedule />} />
